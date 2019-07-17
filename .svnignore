@@ -10,3 +10,6 @@ plugin-deploy.sh
 npm-debug.log
 secret.json
 log.txt
+.php_cs.dist
+plugin-deply.sh
+.editorconfig
