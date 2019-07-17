@@ -1,26 +1,7 @@
 # weDocs #
 
-The documentation plugin for WordPress
+The documentation plugin for Bizao
 
-
-**Contributors:** tareq1988, wedevs
-
-**Donate link:** https://tareq.co/donate/
-
-**Tags:** document, documentation, help
-
-**Requires at least:** 3.6
-
-**Tested up to:** 4.4.2
-
-**Stable tag:** trunk
-
-**License:** GPLv2 or later
-
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
-
-
-Create great looking documentation for your products.
 
 ## Description ##
 
