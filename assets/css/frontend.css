@@ -339,18 +339,17 @@ body.single.single-docs .content-area {
   margin-bottom: 20px;
   position: relative;
   border: 1px solid #e5e5e5;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  text-align: center;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h3 {
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h2 {
   border-bottom: 1px solid #eee;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   padding: 8px 12px;
   margin: 0;
   line-height: 1.4;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h3 a {
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h2 a {
   text-decoration: none;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single .inside {
@@ -364,12 +363,19 @@ body.single.single-docs .content-area {
   background-color: #f7f7f7;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections {
-  margin-left: 20px;
   padding: 0;
-  list-style-type: disc;
+  list-style-type: none;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections li {
   margin: 0;
+}
+.wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections li > .card-img-top {
+  max-width: 30rem;
+}
+@media (min-width: 768px) {
+  .wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections:nth-child(n+2) {
+    margin-top: 10px;
+  }
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li {
   float: left;

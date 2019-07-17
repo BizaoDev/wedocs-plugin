@@ -35,7 +35,7 @@ class WeDocs_Shortcode_Handler {
      */
     public static function wedocs( $args = array() ) {
         $defaults = array(
-            'col'     => '2',
+            'col'     => '12',
             'include' => 'any',
             'exclude' => '',
             'items'   => 10,

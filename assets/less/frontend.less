@@ -64,7 +64,7 @@ body.single.single-docs .content-area {
 
             > li.current_page_parent,
             > li.current_page_item,
-            > li.current_page_ancestor, {
+            > li.current_page_ancestor {
                 > a {
                     background: @mainColor;
                     color: #fff;
@@ -156,12 +156,13 @@ body.single.single-docs .content-area {
             margin-bottom: 20px;
             position: relative;
             border: 1px solid #e5e5e5;
-            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
-            box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+            //-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+            //box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+            text-align: center;
 
-            h3 {
+            h2 {
                 border-bottom: 1px solid #eee;
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: bold;
                 padding: 8px 12px;
                 margin: 0;
@@ -186,12 +187,21 @@ body.single.single-docs .content-area {
         }
 
         ul.wedocs-doc-sections {
-            margin-left: 20px;
             padding: 0;
-            list-style-type: disc;
+            list-style-type: none;
 
             li {
                 margin: 0;
+
+                >.card-img-top{
+                    max-width: 30rem;
+                }
+            }
+
+            &:nth-child(n+2){
+                @media (min-width: 768px) {
+                    margin-top: 10px;
+                }
             }
         }
 
