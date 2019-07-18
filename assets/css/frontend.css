@@ -357,7 +357,8 @@ body.single.single-docs .content-area {
   text-align: center;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h2 {
-  font-size: 34px;
+  border-bottom: 1px solid #eee;
+  font-size: 30px;
   font-weight: bold;
   padding: 8px 12px;
   margin: 0;
@@ -372,7 +373,6 @@ body.single.single-docs .content-area {
   min-height: 60px;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single .wedocs-doc-link {
-  text-align: center;
   padding: 10px 0;
   border-top: 1px solid #eee;
   background-color: #f7f7f7;
