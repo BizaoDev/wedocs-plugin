@@ -5,8 +5,15 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'bizao-icons';
+  src: url('../fonts/bizao-icons.eot?90j9bq');
+  src: url('../fonts/bizao-icons.eot?90j9bq#iefix') format('embedded-opentype'), url('../fonts/bizao-icons.ttf?90j9bq') format('truetype'), url('../fonts/bizao-icons.woff?90j9bq') format('woff'), url('../fonts/bizao-icons.svg?90j9bq#bizao-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 i.wedocs-icon {
-  font-family: 'wedocs' !important;
+  font-family: 'bizao-icons', 'wedocs' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -622,3 +629,4 @@ body.single.single-docs .content-area {
     margin-top: 15px;
   }
 }
+/*# sourceMappingURL=assets/css/frontend.css.map */
