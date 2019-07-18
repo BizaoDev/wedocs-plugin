@@ -376,7 +376,7 @@ body.single.single-docs .content-area {
 .wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections li {
   margin: 0;
 }
-.wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections li > .card-img-top {
+.wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections li .card-img-top {
   max-width: 30rem;
 }
 @media (min-width: 768px) {
@@ -407,6 +407,7 @@ body.single.single-docs .content-area {
   padding-top: 15px;
   text-align: center;
   margin: 25px 0;
+  width: 100%;
 }
 .wedocs-feedback-wrap:before,
 .wedocs-feedback-wrap:after {

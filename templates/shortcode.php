@@ -8,9 +8,9 @@
                 <?php if ($main_doc['sections']) : ?>
 
                     <li class="wedocs-docs-single">
-                        <h3>
+                        <h2>
                             <a href="<?php echo get_permalink($main_doc['doc']->ID); ?>"><?php echo $main_doc['doc']->post_title; ?></a>
-                        </h3>
+                        </h2>
                         <div class="inside container-fluid">
                             <!--Separate sections in chunks-->
                             <?php
@@ -26,8 +26,10 @@
                                     <?php foreach ($chunk as $section) : ?>
                                         <li class="card col-md-3">
                                             <?php if (has_post_thumbnail($section->ID)) : ?><?php $url = wp_get_attachment_url(get_post_thumbnail_id($section->ID), 'thumbnail'); ?>
-                                                <div class="card-img-top">
-                                                    <img src="<?php echo $url ?>"/>
+                                                <div class="row justify-content-center">
+                                                    <div class="card-img-top">
+                                                        <img src="<?php echo $url ?>"/>
+                                                    </div>
                                                 </div>
                                             <?php endif; ?>
                                             <div class="card-body">
