@@ -33,7 +33,9 @@
                                                 </div>
                                             <?php endif; ?>
                                             <div class="card-body">
-                                                <a href="<?php echo get_permalink($section->ID); ?>"><?php echo $section->post_title; ?></a>
+                                                <h3>
+                                                    <a href="<?php echo get_permalink($section->ID); ?>"><?php echo $section->post_title; ?></a>
+                                                </h3>
                                             </div>
                                         </li>
                                     <?php endforeach; ?>

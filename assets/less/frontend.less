@@ -155,14 +155,14 @@ body.single.single-docs .content-area {
             margin: 0;
             margin-bottom: 20px;
             position: relative;
-            border: 1px solid #e5e5e5;
+            //border: 1px solid #e5e5e5;
             //-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
             //box-shadow: 0 1px 1px rgba(0,0,0,0.04);
             text-align: center;
 
             h2 {
-                border-bottom: 1px solid #eee;
-                font-size: 20px;
+                //border-bottom: 1px solid #eee;
+                font-size: 34px;
                 font-weight: bold;
                 padding: 8px 12px;
                 margin: 0;
@@ -170,6 +170,7 @@ body.single.single-docs .content-area {
 
                 a {
                     text-decoration: none;
+                    color: @purple;
                 }
             }
 
@@ -190,11 +191,24 @@ body.single.single-docs .content-area {
             padding: 0;
             list-style-type: none;
 
-            li {
+            li.card {
                 margin: 0;
+                -moz-border-radius: 6px;
+                -webkit-border-radius: 6px;
+                border-radius: 6px;
+                -moz-box-shadow: 0 0 2px #979797;
+                -webkit-box-shadow: 0 0 2px #979797;
+                box-shadow: 0 0 2px #979797;
 
                 .card-img-top{
                     max-width: 30rem;
+                    padding-top: 1.25rem;
+                }
+
+                .card-body{
+                    h3{
+                        font-size: 20px;
+                    }
                 }
             }
 
