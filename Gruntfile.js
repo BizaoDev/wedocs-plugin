@@ -21,6 +21,10 @@ module.exports = function(grunt) {
                     '<%= dirs.css %>/frontend.css': '<%= dirs.less %>/frontend.less',
                     '<%= dirs.css %>/print.css': '<%= dirs.less %>/print.less',
                     '<%= dirs.css %>/admin.css': '<%= dirs.less %>/admin.less'
+                },
+                options:{
+                    sourceMap: true,
+                    sourceMapBasepath: '<%= dirs.less %>'
                 }
             }
         },

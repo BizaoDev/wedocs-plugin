@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: weDocs
-Plugin URI: http://wedevs.com/
-Description: A documentation plugin for WordPress
-Version: 1.5
-Author: Tareq Hasan
-Author URI: https://tareq.co/
-License: GPL2
-Text Domain: wedocs
+Plugin Name: weDocs Bizao
+Plugin URI: http://bizao.com/
+Description: A documentation plugin for bizao
+Version: 0.0.1
+Author: SnoozeDev
+Author URI: http://bizao.com/
+License: GPL3
+Text Domain: bizao
 Domain Path: /languages
 */
 

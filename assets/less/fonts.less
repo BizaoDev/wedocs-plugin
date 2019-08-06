@@ -7,10 +7,23 @@
         url('../fonts/wedocs.svg?eqifws#wedocs') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bizao-icons';
+    src:  url('../fonts/bizao-icons.eot?abl1wi');
+    src:  url('../fonts/bizao-icons.eot?abl1wi#iefix') format('embedded-opentype'),
+    url('../fonts/bizao-icons.ttf?abl1wi') format('truetype'),
+    url('../fonts/bizao-icons.woff?abl1wi') format('woff'),
+    url('../fonts/bizao-icons.svg?abl1wi#bizao-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 i.wedocs-icon {
-    font-family: 'wedocs' !important;
+    font-family: 'bizao-icons', 'wedocs' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -24,6 +37,15 @@ i.wedocs-icon {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.wedocs-icon-external:before {
+    content: "\e903";
+}
+.wedocs-icon-dropdown:before{
+    content: "\e900";
+}
+.wedocs-icon-dropup:before{
+    content: "\e901";
+}
 .wedocs-icon-close:before {
     content: "\f00d";
 }
@@ -57,3 +79,9 @@ i.wedocs-icon {
 .wedocs-icon-frown-o:before {
     content: "\f119";
 }
+
+/* OVERRIDES */
+i.wedocs-icon-external {
+    padding-left: 5px;
+}
+
